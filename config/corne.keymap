@@ -9,6 +9,29 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        to_gaming: to_gaming {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TO_GAMING";
+            #binding-cells = <0>;
+            bindings = <&mo 2>, <&to 3>;
+        };
+
+        to_default: to_default {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TO_DEFAULT";
+            #binding-cells = <0>;
+            bindings = <&mo 1>, <&to 0>, <&none>, <&none>;
+        };
+
+        os_layers: os_layers {
+            compatible = "zmk,behavior-tap-dance";
+            label = "OS_LAYERS";
+            #binding-cells = <0>;
+            bindings = <&mo 1>, <&kp LEFT_COMMAND>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -20,10 +43,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R          &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &mo 1
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F          &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V          &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &kp BACKSPACE  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E       &kp R          &kp T        &kp Y    &kp U       &kp I      &kp O    &kp P     &mo 1
+&kp LCTRL  &kp A  &kp S  &kp D       &kp F          &kp G        &kp H    &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C       &kp V          &kp B        &kp N    &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &os_layers  &kp BACKSPACE  &kp SPACE    &kp RET  &to_gaming  &kp RALT
             >;
         };
 
@@ -35,9 +58,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
+&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0       &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans       &trans
+&kp LSHFT   &bootloader   &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &bootloader  &trans
                                         &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
             >;
         };
@@ -54,6 +77,15 @@
 &kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+            >;
+        };
+
+        gaming {
+            bindings = <
+&kp TAB    &kp Q  &kp W  &kp E     &kp R     &kp T        &kp Y    &kp U        &kp I      &kp O    &kp P     &trans
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F     &kp G        &kp H    &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V     &kp B        &kp N    &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                         &kp LGUI  &kp BSPC  &kp SPACE    &kp RET  &to_default  &kp RALT
             >;
         };
     };
