@@ -212,7 +212,7 @@
 
 ## Layer 7: SETTINGS (OS Selection + Bluetooth)
 
-**How to access:** Hold RAISE (right middle thumb) + tap ALT (right pinky thumb)
+**How to access:** Hold RAISE (right middle thumb) + tap bottom-right corner key
 
 ```
 ┌──────┬──────┬──────┬──────┬──────┬──────┐       ┌──────┬──────┬──────┬──────┬──────┬──────┐
@@ -220,7 +220,7 @@
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │ MAC  │ WIN  │LINUX │ GAME │      │      │       │      │      │      │      │      │      │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
-│BTLDR │      │      │      │      │      │       │      │      │      │      │      │BTLDR │
+│      │      │      │      │      │BTLDR │       │BTLDR │      │      │      │      │      │
 └──────┴──────┴──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┴──────┴──────┘
                      │      │      │      │       │      │      │      │
                      └──────┴──────┴──────┘       └──────┴──────┴──────┘
@@ -234,13 +234,16 @@
   - Profile 2 = Device 3 (e.g., Linux machine)
 
 **OS Mode Selection:**
-- **MAC** (Q position) = Switch to Mac base layer
-- **WIN** (W position) = Switch to Windows base layer
-- **LINUX** (E position) = Switch to Linux base layer
-- **GAME** (R position) = Lock to Gaming layer
+- **MAC** (A position) = Switch to Mac base layer
+- **WIN** (S position) = Switch to Windows base layer
+- **LINUX** (D position) = Switch to Linux base layer
+- **GAME** (F position) = Lock to Gaming layer
 
 **System:**
 - **BTLDR** = Enter bootloader (for flashing firmware)
+  - **Left side:** Bottom row, 2nd from right (T position on base layer)
+  - **Right side:** Bottom row, far left (Y position on base layer)
+  - **Much safer** - won't accidentally trigger when accessing Settings!
 
 ---
 

@@ -151,14 +151,14 @@
             // -----------------------------------------------------------------------------------------
             // |BTCLR | BT0 | BT1 | BT2 | BT3 | BT4 |   |     |     |     |     |     |      |
             // | MAC  | WIN |LINUX|GAME |     |     |   |     |     |     |     |     |      |
-            // |BTLDR |     |     |     |     |     |   |     |     |     |     |     |BTLDR |
+            // |      |     |     |     |     |BTLDR|   |BTLDR|     |     |     |     |      |
             //                    |     |     |     |   |     |     |     |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
-&to 0       &to 1         &to 2         &to 3         &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&bootloader &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &bootloader
-                                        &trans        &trans        &trans          &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans       &trans  &trans  &trans  &trans  &trans
+&to 0       &to 1         &to 2         &to 3         &trans        &trans          &trans       &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &bootloader     &bootloader  &trans  &trans  &trans  &trans  &trans
+                                        &trans        &trans        &trans          &trans       &trans  &trans
             >;
         };
     };
