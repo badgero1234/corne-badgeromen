@@ -4,10 +4,10 @@
 
 | Action | How to Access |
 |--------|---------------|
-| **Numbers & F-Keys** | Hold LEFT middle thumb (LOWER) |
+| **Numbers & F-Keys** | Hold LEFT far thumb (LOWER) |
 | **Symbols & Media** | Hold RIGHT middle thumb (RAISE) |
-| **Switch OS Mode** | Hold RAISE + tap ALT → then tap Q/W/E/R |
-| **Gaming Mode** | Settings → tap R position |
+| **Switch OS Mode** | Hold RAISE + bottom-right corner → then tap Q/W/E/R |
+| **Gaming Mode** | Settings → tap R position (or double-tap RAISE) |
 | **Return from Gaming** | Double-tap middle right thumb |
 
 ---
@@ -18,22 +18,24 @@
 
 ```
 ┌──────┬──────┬──────┬──────┬──────┬──────┐       ┌──────┬──────┬──────┬──────┬──────┬──────┐
-│ TAB  │  Q   │  W   │  E   │  R   │  T   │       │  Y   │  U   │  I   │  O   │  P   │ BKSP │
+│ TAB  │  Q   │  W   │  E   │  R   │  T   │       │  Y   │  U   │  I   │  O   │  P   │ CMD  │
+│      │      │      │      │      │      │       │      │      │      │      │      │ (⌘)  │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │ CTRL │  A   │  S   │  D   │  F   │  G   │       │  H   │  J   │  K   │  L   │  ;   │  '   │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │SHIFT │  Z   │  X   │  C   │  V   │  B   │       │  N   │  M   │  ,   │  .   │  /   │ ESC  │
 └──────┴──────┴──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┴──────┴──────┘
-                     │ CMD  │LOWER │ SPC  │       │ ENTER│RAISE │ ALT  │
-                     │(⌘)   │      │      │       │      │ tap2x│      │
+                     │LOWER │BKSP  │ SPC  │       │ ENTER│RAISE │ ALT  │
+                     │      │      │      │       │      │ tap2x│      │
                      └──────┴──────┴──────┘       └──────┴──────┴──────┘
 ```
 
 **Key Shortcuts:**
-- Cmd+C/V/X = Copy/Paste/Cut
+- Cmd+C/V/X = Copy/Paste/Cut (Cmd in top-right corner + letter)
 - Cmd+S = Save
 - Cmd+F = Find
 - Cmd+Tab = App Switcher
+- Alt+Tab = Switch windows (Alt on far right thumb)
 
 ---
 
@@ -43,21 +45,22 @@
 
 ```
 ┌──────┬──────┬──────┬──────┬──────┬──────┐       ┌──────┬──────┬──────┬──────┬──────┬──────┐
-│ TAB  │  Q   │  W   │  E   │  R   │  T   │       │  Y   │  U   │  I   │  O   │  P   │ BKSP │
+│ TAB  │  Q   │  W   │  E   │  R   │  T   │       │  Y   │  U   │  I   │  O   │  P   │ CTRL │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │ WIN  │  A   │  S   │  D   │  F   │  G   │       │  H   │  J   │  K   │  L   │  ;   │  '   │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │SHIFT │  Z   │  X   │  C   │  V   │  B   │       │  N   │  M   │  ,   │  .   │  /   │ ESC  │
 └──────┴──────┴──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┴──────┴──────┘
-                     │ CTRL │LOWER │ SPC  │       │ ENTER│RAISE │ ALT  │
+                     │LOWER │BKSP  │ SPC  │       │ ENTER│RAISE │ ALT  │
                      │      │      │      │       │      │ tap2x│      │
                      └──────┴──────┴──────┘       └──────┴──────┴──────┘
 ```
 
 **Key Differences from Mac:**
-- **CTRL on thumb** (same position as Mac's Cmd)
-- **WIN key** on left pinky home row (for Win+D, Win+Tab)
-- Ctrl+C/V/X now work on same thumb position
+- **CTRL in top-right corner** (same position as Mac's Cmd - muscle memory preserved!)
+- **WIN key** on left home row (for Win+D, Win+Tab)
+- Ctrl+C/V/X work with top-right corner CTRL key
+- **ALT** on far right thumb for Alt+Tab, Alt+F4
 
 ---
 
@@ -67,20 +70,22 @@
 
 ```
 ┌──────┬──────┬──────┬──────┬──────┬──────┐       ┌──────┬──────┬──────┬──────┬──────┬──────┐
-│ TAB  │  Q   │  W   │  E   │  R   │  T   │       │  Y   │  U   │  I   │  O   │  P   │ BKSP │
+│ TAB  │  Q   │  W   │  E   │  R   │  T   │       │  Y   │  U   │  I   │  O   │  P   │ CTRL │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │SUPER │  A   │  S   │  D   │  F   │  G   │       │  H   │  J   │  K   │  L   │  ;   │  '   │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │SHIFT │  Z   │  X   │  C   │  V   │  B   │       │  N   │  M   │  ,   │  .   │  /   │ ESC  │
 └──────┴──────┴──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┴──────┴──────┘
-                     │ CTRL │LOWER │ SPC  │       │ ENTER│RAISE │ ALT  │
+                     │LOWER │BKSP  │ SPC  │       │ ENTER│RAISE │ ALT  │
                      │      │      │      │       │      │ tap2x│      │
                      └──────┴──────┴──────┘       └──────┴──────┴──────┘
 ```
 
 **Key Differences:**
 - Same as Windows layout
-- **SUPER key** on pinky (for i3/sway tiling window managers)
+- **CTRL in top-right corner** (muscle memory preserved!)
+- **SUPER key** on home row (for i3/sway tiling window managers)
+- **ALT** on far right thumb for Alt+Tab and desktop shortcuts
 
 ---
 
@@ -159,24 +164,26 @@
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
 │      │ MUTE │ VOL- │ VOL+ │      │      │       │  -   │  =   │  [   │  ]   │  \   │  "   │
 ├──────┼──────┼──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┼──────┼──────┤
-│      │ PREV │ PLAY │ NEXT │  <   │  >   │       │  _   │  +   │  {   │  }   │  |   │  ?   │
+│      │ PREV │ PLAY │ NEXT │  <   │  >   │       │  _   │  +   │  {   │  }   │  |   │SETNG │
 └──────┴──────┴──────┼──────┼──────┼──────┤       ├──────┼──────┼──────┼──────┴──────┴──────┘
-                     │      │      │      │       │      │ HOLD │SETNG │
+                     │      │      │      │       │      │ HOLD │ ALT  │
                      └──────┴──────┴──────┘       └──────┴──────┴──────┘
 ```
 
 **Symbols for Coding:**
 - **Top row:** Shifted numbers (!, @, #, $, %, ^, &, *, (, ))
 - **Middle row:** Math/logic operators (-, =, [, ], \, ")
-- **Bottom row:** Shifted operators (_, +, {, }, |, ?)
-- **Special:** < > for comparisons, ? for ternary
+- **Bottom row:** Shifted operators (_, +, {, }, |)
+- **Special:** < > for comparisons
 
 **Media Controls:**
 - **MUTE** = Toggle mute
 - **VOL-/VOL+** = Volume down/up
 - **PREV/PLAY/NEXT** = Music controls
 
-**Access Settings:** Hold this layer + tap ALT (right pinky thumb)
+**Access Settings:** Hold RAISE layer + tap bottom-right corner key
+
+**Note:** ? (question mark) is available via Shift+/ on base layer
 
 ---
 
@@ -241,23 +248,27 @@
 
 ### Muscle Memory Guide:
 1. **Same position = same action** across OS layers
-   - Copy/paste always on same thumb position
-   - Just switches between Cmd (Mac) and Ctrl (Win/Linux)
+   - Copy/paste/cut always use top-right corner (Cmd on Mac, Ctrl on Win/Linux)
+   - Your muscle memory is preserved across all operating systems!
 
 2. **Home row modifiers**
-   - Left pinky column = Tab, GUI/Win/Super, Shift
-   - Never have to reach for modifiers
+   - Left home row = Tab, GUI/Win/Super, Shift
+   - Right top corner = Primary modifier (Cmd/Ctrl)
+   - Never have to reach far for modifiers
 
 3. **Thumb cluster pattern**
-   - **Left:** Primary modifier, LOWER, Space
-   - **Right:** Enter, RAISE, ALT
+   - **Left:** LOWER (hold), BACKSPACE (tap/hold), Space
+   - **Right:** Enter, RAISE (hold/double-tap for gaming), ALT
 
 ### Most Common Actions:
-- **Numbers:** Hold left thumb + top row
-- **F-keys:** Hold left thumb + home row
-- **Symbols:** Hold right thumb + press symbol
-- **Volume:** Hold right thumb + press A/S/D
-- **Switch OS:** Hold right thumb + tap right pinky thumb → then Q/W/E
+- **Backspace:** Middle left thumb (can hold to delete repeatedly!)
+- **Numbers:** Hold far left thumb + top row
+- **F-keys:** Hold far left thumb + home row
+- **Symbols:** Hold right middle thumb + press symbol
+- **Volume:** Hold right middle thumb + press A/S/D
+- **ALT shortcuts:** Far right thumb + other key
+- **Switch OS:** Hold RAISE + bottom-right corner → then Q/W/E
+- **Gaming mode:** Double-tap RAISE
 
 ### Learning Path:
 1. Start with Mac/Windows base layer - learn the feel
