@@ -4,6 +4,14 @@
  * SPDX-License-Identifier: MIT
  */
 
+/*
+ * Multi-OS Layout with:
+ * - CMD/CTRL on top-right corner
+ * - BACKSPACE on middle left thumb
+ * - LOWER on far left thumb
+ * - Safe bootloader positions
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
